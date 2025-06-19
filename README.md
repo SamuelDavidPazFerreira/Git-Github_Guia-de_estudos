@@ -32,7 +32,7 @@ Fluxo básico de trabalho:
 
     Após revisão, o merge é realizado
 
-O que é o Git?
+## O que é o Git?
 
 Git é um sistema de controle de versão distribuído criado por Linus Torvalds em 2005 para o desenvolvimento do kernel Linux.
 
@@ -46,7 +46,7 @@ Principais características:
 
     Flexível: Suporta diversos fluxos de trabalho
 
-O que é GitHub?
+## O que é GitHub?
 
 GitHub é uma plataforma de hospedagem de código baseada em Git com recursos adicionais:
 
@@ -78,7 +78,7 @@ No GitHub você pode visualizar:
 
     Contribuidores do projeto
 
-O que é Git Flow?
+## O que é Git Flow?
 
 Git Flow é uma metodologia (conjunto de convenções) para organização de branches que define:
 
@@ -97,7 +97,8 @@ Git Flow é uma metodologia (conjunto de convenções) para organização de bra
         hotfix/* (correções urgentes)
 
 Embora não seja obrigatório, o Git Flow ajuda a manter um fluxo organizado, especialmente em projetos maiores.
-Comandos Git essenciais
+
+## Comandos Git essenciais
 Configuração inicial
 bash
 
