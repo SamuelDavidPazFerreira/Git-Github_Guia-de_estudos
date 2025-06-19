@@ -168,7 +168,7 @@ Configuração inicial
 
     git branch -d nome_do_branch
 
-Trabalhando com repositórios remotos
+## Trabalhando com repositórios remotos
 
 ### Adiciona um repositório remoto
 
