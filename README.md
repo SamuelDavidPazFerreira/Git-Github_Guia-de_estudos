@@ -101,70 +101,87 @@ Embora não seja obrigatório, o Git Flow ajuda a manter um fluxo organizado, es
 ## Comandos Git essenciais
 
 Configuração inicial
-bash
 
-git config --global user.name "Seu Nome"
-git config --global user.email "seu@email.com"
+    git config --global user.name "Seu Nome"
+
+    git config --global user.email "seu@email.com"
 
 ## Comandos básicos
-bash
 
 ### Inicia um novo repositório Git
-git init
+
+    git init
 
 ### Verifica o status dos arquivos
-git status
+
+    git status
 
 ### Adiciona arquivos para o próximo commit
-git add nome_do_arquivo      # Arquivo específico
-git add .                    # Todos os arquivos modificados
+
+    git add nome_do_arquivo      # Arquivo específico
+
+    git add .                    # Todos os arquivos modificados
 
 ### Remove arquivos do tracking do Git
-git rm nome_do_arquivo       # Remove e para de trackear
-git rm --cached nome_do_arquivo # Para de trackear mas mantém o arquivo
-git rm -f nome_do_arquivo    # Força remoção de arquivo não enviado ao servidor
+
+    git rm nome_do_arquivo           # Remove e para de trackear
+
+    git rm --cached nome_do_arquivo  # Para de trackear mas mantém o arquivo
+
+    git rm -f nome_do_arquivo        # Força remoção de arquivo não enviado ao servidor
 
 ### Cria um commit com as alterações
-git commit -m "Mensagem descritiva"
+
+    git commit -m "Mensagem descritiva"
 
 ### Desfaz alterações locais antes do add
-git checkout -- nome_do_arquivo
+
+    git checkout -- nome_do_arquivo
 
 ### Visualiza o histórico de commits
-git log
 
-Trabalhando com branches
-bash
+    git log
+
+##Trabalhando com branches
 
 ### Lista todos os branches
-git branch
+
+    git branch
 
 ### Cria um novo branch
-git branch nome_do_branch
+
+    git branch nome_do_branch
 
 ### Muda para um branch existente
-git checkout nome_do_branch
+
+    git checkout nome_do_branch
 
 ### Cria e muda para um novo branch
-git checkout -b nome_do_branch
+
+    git checkout -b nome_do_branch
 
 ### Mescla um branch com o atual
-git merge nome_do_branch
+
+    git merge nome_do_branch
 
 ### Deleta um branch
-git branch -d nome_do_branch
+
+    git branch -d nome_do_branch
 
 Trabalhando com repositórios remotos
-bash
 
 ### Adiciona um repositório remoto
-git remote add origin URL_DO_REPOSITORIO
+
+    git remote add origin URL_DO_REPOSITORIO
 
 ### Envia commits para o repositório remoto
-git push -u origin nome_do_branch
+
+    git push -u origin nome_do_branch
 
 ### Atualiza o repositório local com alterações remotas
-git pull origin nome_do_branch
+
+    git pull origin nome_do_branch
 
 ### Clona um repositório existente
-git clone URL_DO_REPOSITORIO
+
+    git clone URL_DO_REPOSITORIO
