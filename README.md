@@ -99,71 +99,72 @@ Git Flow é uma metodologia (conjunto de convenções) para organização de bra
 Embora não seja obrigatório, o Git Flow ajuda a manter um fluxo organizado, especialmente em projetos maiores.
 
 ## Comandos Git essenciais
+
 Configuração inicial
 bash
 
 git config --global user.name "Seu Nome"
 git config --global user.email "seu@email.com"
 
-Comandos básicos
+## Comandos básicos
 bash
 
-# Inicia um novo repositório Git
+### Inicia um novo repositório Git
 git init
 
-# Verifica o status dos arquivos
+### Verifica o status dos arquivos
 git status
 
-# Adiciona arquivos para o próximo commit
+### Adiciona arquivos para o próximo commit
 git add nome_do_arquivo      # Arquivo específico
 git add .                    # Todos os arquivos modificados
 
-# Remove arquivos do tracking do Git
+### Remove arquivos do tracking do Git
 git rm nome_do_arquivo       # Remove e para de trackear
 git rm --cached nome_do_arquivo # Para de trackear mas mantém o arquivo
 git rm -f nome_do_arquivo    # Força remoção de arquivo não enviado ao servidor
 
-# Cria um commit com as alterações
+### Cria um commit com as alterações
 git commit -m "Mensagem descritiva"
 
-# Desfaz alterações locais antes do add
+### Desfaz alterações locais antes do add
 git checkout -- nome_do_arquivo
 
-# Visualiza o histórico de commits
+### Visualiza o histórico de commits
 git log
 
 Trabalhando com branches
 bash
 
-# Lista todos os branches
+### Lista todos os branches
 git branch
 
-# Cria um novo branch
+### Cria um novo branch
 git branch nome_do_branch
 
-# Muda para um branch existente
+### Muda para um branch existente
 git checkout nome_do_branch
 
-# Cria e muda para um novo branch
+### Cria e muda para um novo branch
 git checkout -b nome_do_branch
 
-# Mescla um branch com o atual
+### Mescla um branch com o atual
 git merge nome_do_branch
 
-# Deleta um branch
+### Deleta um branch
 git branch -d nome_do_branch
 
 Trabalhando com repositórios remotos
 bash
 
-# Adiciona um repositório remoto
+### Adiciona um repositório remoto
 git remote add origin URL_DO_REPOSITORIO
 
-# Envia commits para o repositório remoto
+### Envia commits para o repositório remoto
 git push -u origin nome_do_branch
 
-# Atualiza o repositório local com alterações remotas
+### Atualiza o repositório local com alterações remotas
 git pull origin nome_do_branch
 
-# Clona um repositório existente
+### Clona um repositório existente
 git clone URL_DO_REPOSITORIO
