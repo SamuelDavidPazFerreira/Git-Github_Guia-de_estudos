@@ -142,7 +142,7 @@ Configuração inicial
 
     git log
 
-##Trabalhando com branches
+## Trabalhando com branches
 
 ### Lista todos os branches
 
