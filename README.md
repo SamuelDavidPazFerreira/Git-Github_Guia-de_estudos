@@ -1,5 +1,5 @@
-Versionamento e Git/GitHub - Guia de Estudo
-O que é Versionamento?
+# Versionamento e Git/GitHub - Guia de Estudo
+## O que é Versionamento?
 
 Versionamento (ou controle de versão) é um sistema que registra mudanças em arquivos ao longo do tempo, permitindo que você recupere versões específicas mais tarde.
 Motivação para usar versionamento:
