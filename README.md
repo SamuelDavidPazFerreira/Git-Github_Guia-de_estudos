@@ -25,30 +25,31 @@
 
 ### Configuração
 ```bash
-git config --global user.name "Seu Nome"
-git config --global user.email "seu@email.com"
+git config --global user.name "Seu Nome" # Configura seu NOME
+git config --global user.email "seu@email.com" # Configura seu e-mail
 ```
 
 ### Básicos
 ```bash
-  git init                  # Inicia repositório
-  git status                # Verifica estado
+  git init                  # Inicia repositório local
+  git status                # Verifica estado dos seus arquivos
+  git add NOMEARQUIVO       # Adiciona arquivo específico
   git add .                 # Adiciona todos arquivos
   git commit -m "mensagem"  # Cria commit
-  git log                   # Mostra histórico
+  git log                   # Mostra histórico dos commits
 ```
  
 ### Básicos
 ```bash
-  git branch                  # Lista branches
-  git checkout -b nova-branch # Cria nova branch
+  git branch                  # Lista todas as branches
+  git checkout -b nova-branch # Cria nova branch e alterna para a nova branch
   git merge branch            # Combina branches
 ```
 ### Remotos
 ```bash
   git clone URL             # Clona repositório
-  git push origin main      # Envia alterações
-  git pull origin main      # Atualiza local
+  git push                  # Envia alterações para a Branch
+  git pull                  # Atualiza o repositório local
 ```
 
 ## 🌊 Git Flow
@@ -89,3 +90,14 @@ git config --global user.email "seu@email.com"
         Branches: feature/nome, fix/nome
 
         Tags: v1.0.0
+
+## 🔄 Comandos Básicos de Versionamento
+
+| Comando | Explicação | Exemplo Prático |
+|---------|------------|-----------------|
+| `git init` | Inicia um novo repositório Git no diretório atual | `git init meu-projeto` |
+| `git status` | Mostra o estado dos arquivos (rastreados, modificados, etc.) | `git status` |
+| `git add` | Adiciona arquivos ao stage (prepara para commit) | `git add .` (todos) ou `git add arquivo.txt` |
+| `git rm` | Remove arquivos do tracking do Git | `git rm arquivo.txt` ou `git rm -f arquivo.txt` (forçado) |
+| `git commit` | Salva um snapshot das alterações | `git commit -m "Adiciona funcionalidade X"` |
+
