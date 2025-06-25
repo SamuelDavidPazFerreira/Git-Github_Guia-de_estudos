@@ -1,10 +1,10 @@
 # 📚 Guia Prático de Git, GitHub e Git Flow
 
 ## 🔍 Índice
-- [Conceitos Básicos](#-conceitos-básicos)
-- [Comandos Essenciais](#-comandos-essenciais)
-- [Git Flow](#-git-flow)
-- [Boa Práticas](#-boas-práticas)
+- [Conceitos Básicos](##-conceitos-básicos)
+- [Comandos Essenciais](##-comandos-essenciais)
+- [Git Flow](##-git-flow)
+- [Boa Práticas](##-boas-práticas)
 - [Recursos Úteis](#-recursos-úteis)
 
 ## 🌟 Conceitos Básicos
@@ -76,6 +76,7 @@ git config --global user.email "seu@email.com"
   git flow hotfix start correcao
   git flow hotfix finish correcao
 ```
+
 ## ✅ Boas Práticas
 
     1. Commits atômicos
@@ -89,11 +90,3 @@ git config --global user.email "seu@email.com"
         Branches: feature/nome, fix/nome
 
         Tags: v1.0.0
-        
-    3. Fluxo de trabalho
-
-      graph TD
-          A[main] --> B[develop]
-          B --> C[feature/x]
-          B --> D[release]
-          A --> E[hotfix]
