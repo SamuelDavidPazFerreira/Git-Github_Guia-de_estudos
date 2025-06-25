@@ -7,18 +7,20 @@
 
 ## 🌟 Conceitos Básicos
 
-### Versionamento
-- **Master/Main Branch**: Versão estável do projeto
-- **Branches**: Ramificações para desenvolvimento paralelo
-- **Merge**: Combinação de branches
-- **Pull Request**: Solicitação de mesclagem
+### 🔄 O que é Versionamento de Código?
 
-### Git vs GitHub
-| Git | GitHub |
-|-----|--------|
-| Sistema de controle de versão | Plataforma para hospedar repositórios Git |
-| Local | Remoto |
-| Linha de comando | Interface web |
+**Versionamento** é o sistema que organiza e controla as mudanças no código fonte ao longo do tempo. Imagine um "ctrl+Z inteligente" que registra toda a evolução do seu projeto!
+
+### Por que versionar?
+- 👥 **Trabalho em equipe**: Coordena mudanças entre múltiplos desenvolvedores sem caos
+- 🕵️ **Rastreabilidade**: Saber exatamente quem mudou o quê e quando
+- ⏱️ **Histórico completo**: Volte a qualquer versão anterior com facilidade
+- 🧪 **Experimentação segura**: Teste novas ideias sem afetar o código principal
+
+**Fluxo básico**:
+1. Código estável na `main` (antiga `master`)
+2. Cria-se branches para novas funcionalidades
+3. Alterações são mescladas via **pull requests**
 
 ## 🔄 Comandos Básicos de Versionamento
 
