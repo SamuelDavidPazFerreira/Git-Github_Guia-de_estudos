@@ -2,7 +2,7 @@
 
 ## 🔍 Índice
 - [Conceitos Básicos](#-conceitos-básicos)
-- [Comandos Básicos](#-comandos-básicos)
+- [Comandos Básicos de Versionamento](#-comandos-básicos-de-versionamento)
 - [Git Flow](#-git-flow)
 - [Boa Práticas](#-boas-práticas)
 
