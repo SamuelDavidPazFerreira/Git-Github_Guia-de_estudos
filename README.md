@@ -26,6 +26,9 @@
 - 🔄 Colabore com equipes sem conflitos
 - ⏱️ Experimente ideias com segurança
 
+### Analogia Perfeita:
+Imagine branches como **linhas do tempo alternativas** - você pode criar universos paralelos para seu código, onde cada mudança existe isoladamente até estar pronta para ser incorporada ao projeto principal.
+
 **Fluxo básico**:
 1. Código estável na `main` (antiga `master`)
 2. Cria-se branches para novas funcionalidades
