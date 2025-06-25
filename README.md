@@ -22,6 +22,23 @@
 2. Cria-se branches para novas funcionalidades
 3. Alterações são mescladas via **pull requests**
 
+🌿 Modelo de Branches
+
+A arquitetura ideal usa:
+
+    main - Espelho exato da produção
+
+    develop - Integração contínua
+
+    feature/ - Novas funcionalidades
+
+    release/ - Preparação de versões
+
+    hotfix/ - Correções emergenciais
+
+   Regra de ouro:
+⚠️ Nunca commite diretamente na main ou develop!
+
 ## 🔄 Comandos Básicos de Versionamento
 
 | Comando | Explicação | Exemplo Prático |
