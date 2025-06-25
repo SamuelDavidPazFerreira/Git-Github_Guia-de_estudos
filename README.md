@@ -58,3 +58,29 @@ git config --global user.email "seu@email.com"
 ```bash
   git flow init
 ```
+
+### Features
+```bash
+  git flow feature start login
+  git flow feature finish login
+```
+
+### Release
+```bash
+  git flow release start 1.0.0
+  git flow release finish 1.0.0
+```
+
+### Hotfix
+```bash
+  git flow hotfix start correcao
+  git flow hotfix finish correcao
+```
+
+### Fluxo de trabalho
+
+graph TD
+  A[main] --> B[develop]
+  B --> C[feature/x]
+  B --> D[release]
+  A --> E[hotfix]
