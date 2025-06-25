@@ -31,13 +31,14 @@ git config --global user.email "seu@email.com"
 ```
 
 ### Básicos
-
+```bash
   git init                  # Inicia repositório
   git status                # Verifica estado
   git add .                 # Adiciona todos arquivos
   git commit -m "mensagem"  # Cria commit
   git log                   # Mostra histórico
-  
+```
+ 
 ### Básicos
 ```bash
   git branch                  # Lista branches
