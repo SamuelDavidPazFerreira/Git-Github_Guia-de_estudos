@@ -17,27 +17,38 @@
 - ⏱️ **Histórico completo**: Volte a qualquer versão anterior com facilidade
 - 🧪 **Experimentação segura**: Teste novas ideias sem afetar o código principal
 
+## 🌿 O que são Branches no Git?
+
+**Branches (ramificações)** são uma das funcionalidades mais poderosas do Git, permitindo que você:
+
+- 🚀 Trabalhe em múltiplas versões do seu projeto simultaneamente
+- 🛡️ Isole novas funcionalidades sem afetar o código principal
+- 🔄 Colabore com equipes sem conflitos
+- ⏱️ Experimente ideias com segurança
+
 **Fluxo básico**:
 1. Código estável na `main` (antiga `master`)
 2. Cria-se branches para novas funcionalidades
 3. Alterações são mescladas via **pull requests**
 
-🌿 Modelo de Branches
+### Tipos Principais de Branches:
 
-A arquitetura ideal usa:
+| Tipo        | Finalidade                          | Boas Práticas                      |
+|-------------|-------------------------------------|------------------------------------|
+| `main`      | Código de produção estável          | Nunca commitar diretamente         |
+| `develop`   | Integração de novas funcionalidades | Branch base para features          |
+| `feature/*` | Desenvolvimento de novas funcs      | Nomes descritivos (ex: `feature/login`) |
+| `hotfix/*`  | Correções emergenciais              | Criar sempre da `main`             |
+| `release/*` | Preparação de novas versões         | Versionamento semântico (ex: `release/1.2.0`) |
 
-    main - Espelho exato da produção
 
-    develop - Integração contínua
+### O que é .gitignore?
+O `.gitignore` é um arquivo especial que informa ao Git quais arquivos ou diretórios devem ser ignorados e não rastreados no versionamento. Isso é essencial para:
 
-    feature/ - Novas funcionalidades
-
-    release/ - Preparação de versões
-
-    hotfix/ - Correções emergenciais
-
-   Regra de ouro:
-⚠️ Nunca commite diretamente na main ou develop!
+- Evitar commit de arquivos temporários
+- Não versionar dependências do projeto
+- Proteger informações sensíveis
+- Manter o repositório limpo
 
 ## 🔄 Comandos Básicos de Versionamento
 
