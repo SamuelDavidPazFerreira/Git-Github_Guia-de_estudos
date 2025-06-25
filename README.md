@@ -5,7 +5,6 @@
 - [Comandos Essenciais](#-comandos-essenciais)
 - [Git Flow](#-git-flow)
 - [Boa Práticas](#-boas-práticas)
-- [Recursos Úteis](#-recursos-úteis)
 
 ## 🌟 Conceitos Básicos
 
