@@ -99,3 +99,17 @@
 | `git flow release finish [versão]` | Finaliza release com merge em main e develop + tag | `git flow release finish 1.0.0` | `git checkout main && git merge release/1.0.0 && git tag -a 1.0.0` |
 | `git flow hotfix start [nome]` | Cria branch de hotfix a partir de main | `git flow hotfix start correcao` | `git checkout -b hotfix/correcao main` |
 | `git flow hotfix finish [nome]` | Finaliza hotfix com merge em main e develop + tag | `git flow hotfix finish correcao` | `git checkout main && git merge hotfix/correcao && git tag -a hotfix-correcao` |
+
+## Dicas de Uso Prático
+
+Padrão de Nomenclatura:
+```bash
+
+# Features
+git flow feature start user-authentication
+
+# Releases
+git flow release start 2.1.3
+
+# Hotfixes
+git flow hotfix start security-patch
