@@ -4,7 +4,6 @@
 - [Conceitos Básicos](#-conceitos-básicos)
 - [Comandos Básicos de Versionamento](#-comandos-básicos-de-versionamento)
 - [Git Flow](#-git-flow)
-- [Boa Práticas](#-boas-práticas)
 
 ## 🌟 Conceitos Básicos
 
