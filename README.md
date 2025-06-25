@@ -28,3 +28,32 @@
 ```bash
 git config --global user.name "Seu Nome"
 git config --global user.email "seu@email.com"
+```
+
+### Básicos
+
+  git init                  # Inicia repositório
+  git status                # Verifica estado
+  git add .                 # Adiciona todos arquivos
+  git commit -m "mensagem"  # Cria commit
+  git log                   # Mostra histórico
+  
+### Básicos
+```bash
+  git branch                  # Lista branches
+  git checkout -b nova-branch # Cria nova branch
+  git merge branch            # Combina branches
+```
+### Remotos
+```bash
+  git clone URL             # Clona repositório
+  git push origin main      # Envia alterações
+  git pull origin main      # Atualiza local
+```
+
+## 🌊 Git Flow
+
+### Inicialização
+```bash
+  git flow init
+```
