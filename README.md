@@ -1,7 +1,5 @@
 # 📚 Guia Prático de Git, GitHub e Git Flow
 
-![Git Logo](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
-
 ## 🔍 Índice
 - [Conceitos Básicos](#-conceitos-básicos)
 - [Comandos Essenciais](#-comandos-essenciais)
