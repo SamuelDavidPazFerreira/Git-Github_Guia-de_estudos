@@ -76,24 +76,24 @@ git config --global user.email "seu@email.com"
   git flow hotfix start correcao
   git flow hotfix finish correcao
 ```
-✅ Boas Práticas
+## ✅ Boas Práticas
 
-    Commits atômicos
+    1. Commits atômicos
 
         Cada commit deve ter uma única finalidade
 
         Exemplo: "fix: corrige erro no login"
 
-    Nomenclatura
+    2. Nomenclatura
 
         Branches: feature/nome, fix/nome
 
         Tags: v1.0.0
         
-### Fluxo de trabalho
+    3. Fluxo de trabalho
 
-graph TD
-  A[main] --> B[develop]
-  B --> C[feature/x]
-  B --> D[release]
-  A --> E[hotfix]
+      graph TD
+          A[main] --> B[develop]
+          B --> C[feature/x]
+          B --> D[release]
+          A --> E[hotfix]
