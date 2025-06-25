@@ -1,10 +1,10 @@
 # 📚 Guia Prático de Git, GitHub e Git Flow
 
 ## 🔍 Índice
-- [Conceitos Básicos](##-conceitos-básicos)
-- [Comandos Essenciais](##-comandos-essenciais)
-- [Git Flow](##-git-flow)
-- [Boa Práticas](##-boas-práticas)
+- [Conceitos Básicos](#-conceitos-básicos)
+- [Comandos Essenciais](#-comandos-essenciais)
+- [Git Flow](#-git-flow)
+- [Boa Práticas](#-boas-práticas)
 - [Recursos Úteis](#-recursos-úteis)
 
 ## 🌟 Conceitos Básicos
